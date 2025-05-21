@@ -378,6 +378,9 @@ section{
     { 
          
 
+        .nview{
+            display: none;
+        }
    
     
     .contenedor-columnas {
