@@ -59,15 +59,15 @@ body{
     flex: 1;
     display: flex;
     justify-content: center;
-    padding: 50px 30px ;
+    padding: 10px 10px ;
 
 }
 
 
 .contenedor-columnas {
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
-    gap: 2rem;
+    grid-template-columns: 1fr;
+    gap: 1rem;
 
 }
 
@@ -284,10 +284,15 @@ article .title{
 }
 
 #tarjetas_otros{
-    background: #e00404;
+    background: #833AB4;
+    background: linear-gradient(180deg,rgba(131, 58, 180, 1) 0%, rgba(255, 3, 3, 1) 0%, rgba(181, 172, 172, 1) 100%);
      
 }
 
+.imst{
+    width: 400px; 
+    height: 400px
+}
 
 .card {
     box-shadow: 0 0 10px 0 rgba(48, 47, 47, 0.9);
@@ -304,6 +309,11 @@ article .title{
 
 section{
     padding: 20px 0;
+}
+
+.ab_nos{
+     
+    padding: 50px 50px;
 }
 
 
@@ -358,7 +368,7 @@ section{
 
     .contenedor-columnas {
         
-        grid-template-columns: repeat(2 , 1fr);
+        grid-template-columns:   1fr;
         
     
     }
@@ -372,7 +382,7 @@ section{
     
     .contenedor-columnas {
          
-        grid-template-columns: repeat(1 , 1fr);
+        grid-template-columns:   1fr;
         
     
     }
